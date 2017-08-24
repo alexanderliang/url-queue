@@ -14,10 +14,7 @@ npm start
 To queue urls:
 ```
 POST http://localhost:3000/new
-```
-JSON object
-```
-{"url":"http://www.google.com"}
+Include JSON object with URL - {"url":"http://www.google.com"}
 ```
 
 To retrieve urls:
